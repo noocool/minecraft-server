@@ -9,10 +9,25 @@ COBBLEMON_URL="https://mediafilez.forgecdn.net/files/5608/969/cobblemon-neoforge
 ARCHITECTURY_URL="https://mediafilez.forgecdn.net/files/5460/807/architectury-12.0.9-neoforge.jar"
 
 # --- 1. Set Java Version ---
-echo "INFO: Ensuring Java ${JAVA_VERSION} is the default..."
-# This command assumes SDKMAN is installed. It will set the default Java version.
-sdk default java ${JAVA_VERSION}
-echo "INFO: Current Java version is now:"
+echo "INFO: Checking if Java ${JAVA_VERSION} is installed via SDKMAN..."
+
+# Load SDKMAN (assumes it's already installed)
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Check if version is installed
+if sdk list java | grep -q "$JAVA_VERSION"; then
+    echo "INFO: Java ${JAVA_VERSION} is available."
+else
+    echo "INFO: Java ${JAVA_VERSION} not found. Installing..."
+    sdk install java "$JAVA_VERSION"
+fi
+
+# Set as default
+echo "INFO: Setting Java ${JAVA_VERSION} as the default..."
+sdk default java "$JAVA_VERSION"
+
+# Confirm
+echo "INFO: Current Java version is:"
 java -version
 
 # --- 2. Safely Set Up Server Directory with User Confirmation ---
