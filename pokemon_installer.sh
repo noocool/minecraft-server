@@ -11,9 +11,6 @@ ARCHITECTURY_URL="https://mediafilez.forgecdn.net/files/5460/807/architectury-12
 # --- 1. Set Java Version ---
 echo "INFO: Checking if Java ${JAVA_VERSION} is installed via SDKMAN..."
 
-# Load SDKMAN (assumes it's already installed)
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 # Check if version is installed
 if sdk list java | grep -q "$JAVA_VERSION"; then
     echo "INFO: Java ${JAVA_VERSION} is available."
@@ -52,7 +49,7 @@ fi
 # --- 3. Create Directory and Install NeoForge Server ---
 echo "INFO: Creating new 'server' directory..."
 mkdir server
-cd server || exit # Exit with an error if we can't enter the new directory
+cd server
 
 echo "INFO: Downloading and installing NeoForge ${NEOFORGE_VERSION}..."
 wget "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
