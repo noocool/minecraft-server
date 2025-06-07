@@ -68,7 +68,7 @@ echo "eula=true" > eula.txt
 # --- 5. Download and Install Mods ---
 echo "INFO: Creating 'mods' directory and downloading mods..."
 # Move mods instead
-cp -r ../cobblemon/gameFiles/* .
+cp -r ../cobblemon/* .
 # mkdir mods
 # echo "INFO: Downloading Cobblemon..."
 # wget -P mods/ "${COBBLEMON_URL}"
@@ -80,5 +80,4 @@ echo ""
 echo "SUCCESS: Server installation is complete!"
 echo "Your previous server was deleted as requested."
 echo "To start your new server, run the following commands:"
-echo "cd server"
-echo "java -Xmx4G -Xms2G -jar run.sh nogui"
+echo "./start_server.sh"
