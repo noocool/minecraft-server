@@ -1,1 +1,2 @@
-sh ./server/run.sh
+cd server
+./server/run.sh
