@@ -3,10 +3,9 @@
 
 # --- Variables (Easy to update here) ---
 JAVA_VERSION="21.0.3-tem"
-NEOFORGE_VERSION="21.1.113"
+NEOFORGE_VERSION="21.1.130"
 # You can find the latest URLs from CurseForge or Modrinth by right-clicking the download button and copying the link address.
 COBBLEMON_URL="https://cdn.modrinth.com/data/MdwFAVRL/versions/eLcb8xod/Cobblemon-neoforge-1.6.1%2B1.21.1.jar"
-ARCHITECTURY_URL="https://mediafilez.forgecdn.net/files/5460/807/architectury-12.0.9-neoforge.jar"
 
 # --- 1. Set Java Version ---
 echo "INFO: Checking if Java ${JAVA_VERSION} is installed via SDKMAN..."
@@ -69,8 +68,6 @@ cp -r ../cobblemon/* .
 # mkdir mods
 echo "INFO: Downloading Cobblemon..."
 wget -P mods/ "${COBBLEMON_URL}"
-# echo "INFO: Downloading Architectury API..."
-# wget -P mods/ "${ARCHITECTURY_URL}"
 
 # --- 6. Final Instructions ---
 echo ""
