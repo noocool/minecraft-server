@@ -3,9 +3,9 @@
 
 # --- Variables (Easy to update here) ---
 JAVA_VERSION="21.0.3-tem"
-NEOFORGE_VERSION="21.1.130"
+FABRIC_URL="https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.14/1.0.3/server/jar"
 # You can find the latest URLs from CurseForge or Modrinth by right-clicking the download button and copying the link address.
-COBBLEMON_URL="https://cdn.modrinth.com/data/MdwFAVRL/versions/eLcb8xod/Cobblemon-neoforge-1.6.1%2B1.21.1.jar"
+COBBLEMON_URL="https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
 
 # --- 1. Set Java Version ---
 echo "INFO: Checking if Java ${JAVA_VERSION} is installed via SDKMAN..."
@@ -50,9 +50,9 @@ echo "INFO: Creating new 'server' directory..."
 mkdir server
 cd server
 
-echo "INFO: Downloading and installing NeoForge ${NEOFORGE_VERSION}..."
-wget "https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar"
-java -jar "neoforge-${NEOFORGE_VERSION}-installer.jar" --installServer
+echo "INFO: Downloading and installing Fabric Server..."
+wget "${FABRIC_URL}" -O "fabric-server.jar"
+java -jar "fabric-server.jar" --installServer
 
 # --- 4. Accept EULA (Crucial Step for Linux) ---
 echo "INFO: Automatically accepting the Minecraft EULA..."
