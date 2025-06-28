@@ -1,0 +1,104 @@
+//
+// mobfilter.json5
+//
+// This file controls the spawn filtering rules for mob-filter.  For details, see the docs at:
+//   https://github.com/pcal43/mob-filter/blob/main/CONFIG.md
+//
+// Note that this file isn't parsed with a true json5 parser; rather it's parsed with google's gson
+// in lenient mode:
+//   https://javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/JsonParser.html
+//
+
+{
+  "rules" : [
+      {
+          "name" : "COBBLEVERSE - No Vanilla Mobs",
+          "what" : "DISALLOW_SPAWN",
+          "when" : {
+              "entityId" : [ 
+                    "minecraft:allay",
+                    "minecraft:armadillo",
+                    "minecraft:axolotl",
+                    "minecraft:bat",
+                    "minecraft:bee",
+                    "minecraft:blaze",
+                    "minecraft:bogged",
+                    "minecraft:breeze",
+                    "minecraft:camel",
+                    "minecraft:cat",
+                    "minecraft:cave_spider",
+                    "minecraft:cod",
+                    "minecraft:cow",
+                    "minecraft:chicken",
+                    "minecraft:creeper",
+                    "minecraft:dolphin",
+                    "minecraft:donkey",
+                    "minecraft:drowned",
+                    "minecraft:elder_guardian",
+                    "minecraft:enderman",
+                    "minecraft:endermite",
+                    "minecraft:evoker",
+                    "minecraft:fox",
+                    "minecraft:frog",
+                    "minecraft:ghast",
+                    "minecraft:glow_squid",
+                    "minecraft:goat",
+                    "minecraft:guardian",
+                    "minecraft:hoglin",
+                    "minecraft:horse",
+                    "minecraft:husk",
+                    "minecraft:iron_golem",
+                    "minecraft:llama",
+                    "minecraft:magma_cube",
+                    "minecraft:mooshroom",
+                    "minecraft:mule",
+                    "minecraft:ocelot",
+                    "minecraft:parrot",
+                    "minecraft:panda",
+                    "minecraft:phantom",
+                    "minecraft:piglin",
+                    "minecraft:piglin_brute",
+                    "minecraft:pillager",
+                    "minecraft:polar_bear",
+                    "minecraft:pufferfish",
+                    "minecraft:pig",
+                    "minecraft:rabbit",
+                    "minecraft:ravager",
+                    "minecraft:salmon",
+                    "minecraft:sheep",
+                    "minecraft:shulker",
+                    "minecraft:silverfish",
+                    "minecraft:skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:slime",
+                    "minecraft:spider",
+                    "minecraft:sniffer",
+                    "minecraft:snow_golem",
+                    "minecraft:squid",
+                    "minecraft:stray",
+                    "minecraft:strider",
+                    "minecraft:tadpole",
+                    "minecraft:trader_llama",
+                    "minecraft:tropical_fish",
+                    "minecraft:turtle",
+                    "minecraft:vex",
+                    "minecraft:vindicator",
+                    "minecraft:warden",
+                    "minecraft:witch",
+                    "minecraft:wither",
+                    "minecraft:wither_skeleton",
+                    "minecraft:wolf",
+                    "minecraft:zoglin",
+                    "minecraft:zombie",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin" 
+                ]
+          }
+      }
+  ],
+
+  // If you"re having trouble, change this to DEBUG or TRACE
+  // to output diagnostic information to debug.log.
+  "logLevel" : "INFO"
+}
