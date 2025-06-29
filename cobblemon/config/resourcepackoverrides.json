@@ -1,0 +1,446 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "cobbreeding:pasturefix",
+    "highlight:highlight_extended",
+    "betterbeds:fancyconnectedbeds",
+    "continuity:default",
+    "continuity:glass_pane_culling_fix",
+    "file/Low Fire.zip",
+    "file/Emissive Cobblemon Ores.zip",
+    "file/Comforts Modernized.zip",
+    "file/Classic Grass.zip",
+    "file/PokeFlute Pack.zip",
+    "file/PokeRods3D.zip",
+    "file/BoxWallpapers.zip",
+    "file/Cobblemon Interface.zip",
+    "file/Cobblemon Interface Modded.zip",
+    "file/Cobblemon Interface Recolored.zip",
+    "file/PokeDiscs.zip",
+    "file/Original Pokemon Battle Music.zip",
+    "file/JigglyRadio.zip",
+    "cobblemon:gyaradosjump",
+    "cobblemon:uniqueshinyforms",
+    "mega_showdown:gyaradosjumpingmega",
+    "cobblemon:regionbiasforms",
+    "file/FullyHisuianStarters RP.zip",
+    "file/GenoMons RP.zip",
+    "file/CadensMons RP.zip",
+    "file/Monkeymons RP.zip",
+    "file/CobbleCats RP.zip",
+    "file/PlanetaCobblemon RP.zip",
+    "file/GlitchDex RP.zip",
+    "file/AlphabetSoup RP.zip",
+    "file/CavsCobbleMons RP.zip",
+    "file/LackingMons RP.zip",
+    "file/TDmon RP.zip",
+    "file/MelloMons RP.zip",
+    "file/TheJewelPokemon RP.zip",
+    "file/BoniMons RP.zip",
+    "file/MysticMons RP.zip",
+    "file/WaviMons RP.zip",
+    "file/MundialMons RP.zip",
+    "file/OdysseyMons RP.zip",
+    "file/PigeonsPack RP.zip",
+    "file/Nadymons3 RP.zip",
+    "file/HiddenMons RP.zip",
+    "file/CloudMons RP.zip",
+    "file/DracoMon RP.zip",
+    "file/MissingMons RP.zip",
+    "file/HydroReanimodel RP.zip",
+    "file/Pokemans RP.zip",
+    "file/KalesCollection RP.zip",
+    "file/LucarioOverhaul RP.zip",
+    "file/RCT Trainers+.zip",
+    "file/Fresh Animations.zip",
+    "file/Fresh Moves.zip",
+    "file/Fresh Icons.zip",
+    "file/E19 Cobblemon Minimap Icons.zip",
+    "file/COBBLEVERSE Soundtrack.zip",
+    "file/COBBLEVERSE RCTmod RP.zip",
+    "file/COBBLEVERSE RP.zip"
+  ],
+  "pack_overrides": {
+    "file/COBBLEVERSE RP.zip": {
+      "title": "\"§e§lCOBBLEVERSE\"",
+      "description": "\"§a✔ Main Resource Pack\n§f© §3§cLUMY§bVERSE §f[v8]\"",
+      "default_position": "TOP"
+    },
+    "file/COBBLEVERSE RCTmod RP.zip": {
+      "title": "\"§e§lCOBBLEVERSE X RCTmod\"",
+      "description": "\"§a✔ Improved Skins for Trainers\n§f© §3§cLUMY§bVERSE §f[v5]\""
+    },
+    "file/COBBLEVERSE Soundtrack.zip": {
+      "title": "\"§e§lCOBBLEVERSE Soundtrack\"",
+      "description": "\"§a✔ Custom Background Music\n§f© §3Pokestir & Zame\""
+    },
+    "file/E19 Cobblemon Minimap Icons.zip": {
+      "title": "\"§e§lE19 - Minimap Icons\"",
+      "description": "\"§a✔ Pokémon for Xaero's Minimap\n§f© §3Emery319\""
+    },
+    "file/Fresh Icons.zip": {
+      "title": "\"§e§lXaero's X FreshAnimations\"",
+      "description": "\"§a✔ FA Icons for Xaero's Minimap\n§f© §3Godkyo98\""
+    },
+    "file/Fresh Moves.zip": {
+      "title": "\"§e§lFresh Moves\"",
+      "description": "\"§a✔ Animated Eyes for Players\n§f© §3TrasTick\""
+    },
+    "file/Fresh Animations.zip": {
+      "title": "\"§e§lFresh Animations\"",
+      "description": "\"§a✔ Dynamic Animated Entities\n§f© §3FreshLX\"",
+      "force_compatible": true
+    },
+    "file/RCT Trainers+.zip": {
+      "title": "\"§e§lRCT Trainers+\"",
+      "description": "\"§a✔ Custom Trainer Skins\n§f© §3Forestfire\""
+    },
+    "file/LucarioOverhaul RP.zip": {
+      "title": "\"§e§lLucario Overhaul\"",
+      "description": "\"§a✔ Riolu & Lucario Models\n§f© §3JoeSeff\""
+    },
+    "file/KalesCollection RP.zip": {
+      "title": "\"§e§lKale's Collection\"",
+      "description": "\"§a✔ Adds 9 New Pokémon\n§f© §3Kale\""
+    },
+    "file/Pokemans RP.zip": {
+      "title": "\"§e§lPokemans\"",
+      "description": "\"§a✔ Adds Pokémon Models\n§f© §3Tontra & Pandalistics\""
+    },
+    "file/HydroReanimodel RP.zip": {
+      "title": "\"§e§lHydro Reanimodel\"",
+      "description": "\"§a✔ Pokémon Re-Animated\n§f© §3BlaziumHydro\"",
+      "force_compatible": true
+    },
+    "file/MissingMons RP.zip": {
+      "title": "\"§e§lMissingMons\"",
+      "description": "\"§a✔ More than 50 New Pokémon\n§f© §3RedRibbon\""
+    },
+    "file/DracoMon RP.zip": {
+      "title": "\"§e§lDracoMon\"",
+      "description": "\"§a✔ Adds Animated Drampa\n§f© §3Rottedsoul\"",
+      "force_compatible": true
+    },
+    "file/CloudMons RP.zip": {
+      "title": "\"§e§lCloudMons\"",
+      "description": "\"§a✔ Adds Missing Pokémon\n§f© §3Wi2tert\"",
+      "force_compatible": true
+    },
+    "file/HiddenMons RP.zip": {
+      "title": "\"§e§lHiddenMons\"",
+      "description": "\"§a✔ 15+ Missing Pokémon\n§f© §3Marcustars\""
+    },
+    "file/Nadymons3 RP.zip": {
+      "title": "\"§e§lNadymons3\"",
+      "description": "\"§a✔ Trubbish & Vanillite Evos\n§f© §3Nady3\""
+    },
+    "file/PigeonsPack RP.zip": {
+      "title": "\"§e§lPigeonsPack\"",
+      "description": "\"§a✔ Adds 10 Pokémon\n§f© §3El-Pigeon\""
+    },
+    "file/OdysseyMons RP.zip": {
+      "title": "\"§e§lOdysseyMons\"",
+      "description": "\"§a✔ Greavard Line & Iron Moth\n§f© §3Aki4hiro & BifeSalgado\"",
+      "force_compatible": true
+    },
+    "file/MundialMons RP.zip": {
+      "title": "\"§e§lMundialMons\"",
+      "description": "\"§a✔ Gulpin & Swalot\n§f© §3Alexiocraft\"",
+      "force_compatible": true
+    },
+    "file/WaviMons RP.zip": {
+      "title": "\"§e§lWaviMons\"",
+      "description": "\"§a✔ 13 New Pokémon Models\n§f© §3Bwavii\"",
+      "force_compatible": true
+    },
+    "file/MysticMons RP.zip": {
+      "title": "\"§e§lMysticMons\"",
+      "description": "\"§a✔ Mythical/Legendary Models\n§f© §3iMystxc\""
+    },
+    "file/BoniMons RP.zip": {
+      "title": "\"§e§lBoniMons\"",
+      "description": "\"§a✔ Adds 12 Pokémon Models\n§f© §3Bonanca\""
+    },
+    "file/TheJewelPokemon RP.zip": {
+      "title": "\"§e§lThe Jewel Pokemon\"",
+      "description": "\"§a✔ Adds Animated Diancie\n§f© §3NetImmerse\"",
+      "force_compatible": true
+    },
+    "file/MelloMons RP.zip": {
+      "title": "\"§e§lMelloMons\"",
+      "description": "\"§a✔ New Animated Mew Model\n§f© §3MelloMatt & BeeZy\""
+    },
+    "file/TDmon RP.zip": {
+      "title": "\"§e§lTDmon\"",
+      "description": "\"§a✔ 11 New Animated Models\n§f© §3DiEn\""
+    },
+    "file/LackingMons RP.zip": {
+      "title": "\"§e§lLackingMons\"",
+      "description": "\"§a✔ Adds 14 Pokémon Models\n§f© §3Beezy & IZetyXX\"",
+      "force_compatible": true
+    },
+    "file/CavsCobbleMons RP.zip": {
+      "title": "\"§e§lCavsCobblemon\"",
+      "description": "\"§a✔ More Pokémon Models\n§f© §3Xcavalier\""
+    },
+    "file/AlphabetSoup RP.zip": {
+      "title": "\"§e§lAlphabet Soup\"",
+      "description": "\"§a✔ All Unown Forms\n§f© §3BeeZy\"",
+      "force_compatible": true
+    },
+    "file/GlitchDex RP.zip": {
+      "title": "\"§e§lGlitchDex\"",
+      "description": "\"§a✔ Capsakid & Croagunk Evos\n§f© §3Glitch Ratt & Ozzy\"",
+      "force_compatible": true
+    },
+    "file/PlanetaCobblemon RP.zip": {
+      "title": "\"§e§lPlaneta Cobblemon Pack\"",
+      "description": "\"§a✔ Adiciona modelos de Pokémon\n§f© §3Planeta Cobblemon\"",
+      "force_compatible": true
+    },
+    "file/CobbleCats RP.zip": {
+      "title": "\"§e§lCobbleCats\"",
+      "description": "\"§a✔ Missing Cat Pokémon\n§f© §3Raspix\""
+    },
+    "file/Monkeymons RP.zip": {
+      "title": "\"§e§lMonkeymons\"",
+      "description": "\"§a✔ Adds 3 Monkey Pokémon\n§f© §3Bonanca\"",
+      "force_compatible": true
+    },
+    "file/CadensMons RP.zip": {
+      "title": "\"§e§lCadensMons\"",
+      "description": "\"§a✔ Blitzle & Zebstrika\n§f© §3Cadenthecorvid\"",
+      "force_compatible": true
+    },
+    "file/GenoMons RP.zip": {
+      "title": "\"§e§lGenoMons\"",
+      "description": "\"§a✔ Adds Lots of Pokémon\n§f© §3Genotype\"",
+      "force_compatible": true
+    },
+    "file/FullyHisuianStarters RP.zip": {
+      "title": "\"§e§lFully Hisuian Starters\"",
+      "description": "\"§a✔ Look as their Final Evolution\n§f© §3SwordEnd\"",
+      "force_compatible": true
+    },
+    "cobblemon:regionbiasforms": {
+      "title": "\"§e§lRegion Bias Forms\"",
+      "description": "\"§a✔ Visual Differences\n§f© §3Cobbled Studios §7(built-in)\""
+    },
+    "mega_showdown:gyaradosjumpingmega": {
+      "title": "\"§e§lGyarados Jump Mega\"",
+      "description": "\"§a✔ Mega Textures\n§f© §3Mega Showdown §7(built-in)\""
+    },
+    "cobblemon:uniqueshinyforms": {
+      "title": "\"§e§lShinies for Magikarp Jump\"",
+      "description": "\"§a✔ Shiny Textures\n§f© §3Cobbled Studios §7(built-in)\""
+    },
+    "cobblemon:gyaradosjump": {
+      "title": "\"§e§lGyarados Jump Patterns\"",
+      "description": "\"§a✔ Gyarados Forms\n§f© §3Cobbled Studios §7(built-in)\""
+    },
+    "file/JigglyRadio.zip": {
+      "title": "\"§e§lJigglyRadio\"",
+      "description": "\"§a✔ Pokémon Soundpack\n§f© §3Swordsman69x\""
+    },
+    "file/Original Pokemon Battle Music.zip": {
+      "title": "\"§e§lPokémon Battle Music\"",
+      "description": "\"§a✔ Gen 1-9 Battle Tracks\n§f© §3RealDunkin\"",
+      "force_compatible": true
+    },
+    "file/PokeDiscs.zip": {
+      "title": "\"§e§lPoké Discs\"",
+      "description": "\"§a✔ Re-Textures Minecraft Discs\n§f© §3Sosa\"",
+      "force_compatible": true
+    },
+    "file/Cobblemon Interface Recolored.zip": {
+      "title": "\"§e§lInterface Recolored\"",
+      "description": "\"§a✔ Recolored Cobblemon GUI\n§f© §3VinnyStalck\""
+    },
+    "file/Cobblemon Interface Modded.zip": {
+      "title": "\"§e§lInterface Modded\"",
+      "description": "\"§a✔ Mod Supported GUI\n§f© §3VinnyStalck\""
+    },
+    "file/Cobblemon Interface.zip": {
+      "title": "\"§e§lCobblemon Interface\"",
+      "description": "\"§a✔ Pokémon Inspired GUI\n§f© §3VinnyStalck\""
+    },
+    "file/BoxWallpapers.zip": {
+      "title": "\"§e§lBox Wallpapers\"",
+      "description": "\"§a✔ Pokémon-themed PC Boxes\n§f© §3VRCheese\""
+    },
+    "file/PokeRods3D.zip": {
+      "title": "\"§e§l3D Poké Rods\"",
+      "description": "\"§a✔ 3D models for Poké Rods\n§f© §3Akera099\""
+    },
+    "file/PokeFlute Pack.zip": {
+      "title": "\"§e§lPoké Flute Pack\"",
+      "description": "\"§a✔ Repurpose Goat Horns\n§f© §3JoshXVIII\""
+    },
+    "file/Classic Grass.zip": {
+      "title": "\"§e§lClassic Grass\"",
+      "description": "\"§a✔ Pokémon Grass Textures\n§f© §3WizzStar\""
+    },
+    "file/Comforts Modernized.zip": {
+      "title": "\"§e§lComforts Modernized\"",
+      "description": "\"§a✔ Modern Comforts Textures\n§f© §3Pedro9006\"",
+      "force_compatible": true
+    },
+    "file/Emissive Cobblemon Ores.zip": {
+      "title": "\"§e§lEmissive Cobblemon Ores\"",
+      "description": "\"§a✔ Brilliant & Shining Ores\n§f© §3Jamesssssssssssssss\"",
+      "force_compatible": true
+    },
+    "file/Low Fire.zip": {
+      "title": "\"§e§lLow Fire\"",
+      "description": "\"§a✔ Lower On-Screen Fire\n§f© §3Oculie\""
+    },
+    "continuity:glass_pane_culling_fix": {
+      "title": "\"§e§lGlass Pane Culling Fix\"",
+      "description": "\"§a✔ Cull Faces between Glass\n§f© §3Pepper_Bell §7(built-in)\""
+    },
+    "continuity:default": {
+      "title": "\"§e§lConnected Textures\"",
+      "description": "\"§a✔ Glass/Sandstone/Bookshelf\n§f© §3Pepper_Bell §7(built-in)\""
+    },
+    "betterbeds:fancyconnectedbeds": {
+      "title": "\"§e§lFancy Connected Beds\"",
+      "description": "\"§a✔ Beds look Fancier\n§f© §3Motschen §7(built-in)  \""
+    },
+    "highlight:highlight_extended": {
+      "title": "\"§e§lHighlight Extended\"",
+      "description": "\"§a✔ Fixed Blocks Hitboxes\n§f© §3Team Resourceful §7(built-in)\"",
+      "force_compatible": true
+    },
+    "cobbreeding:pasturefix": {
+      "title": "\"§e§lPasture Block Fix\"",
+      "hidden": true
+    },
+    "fabric": {
+      "title": "\"§e§lFabric Mods\"",
+      "hidden": true
+    },
+    "vanilla": {
+      "title": "\"§e§lDefault\"",
+      "hidden": true
+    },
+    "high_contrast": {
+      "title": "\"§e§lHigh Contrast\"",
+      "hidden": true
+    },
+    "musicnotification:dark_mode": {
+      "title": "\"§e§lMusic Notification: Dark Mode\"",
+      "hidden": true
+    },
+    "programmer_art": {
+      "title": "\"§e§lProgrammer Art\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [BoniMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lBoniMons\n§f© §3Bonanca\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [CavsCobbleMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lCavsCobbleMons\n§f© §3Xcavalier\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [CloudMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lCloudMons\n§f© §3Wi2tert\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [Cobblemon Legendary - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lCobblemon Legendary\n§f© §3TheBlindBandit6\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [DracoMon - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lDracoMon\n§f© §3Rottedsoul\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [HiddenMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lHiddenMons\n§f© §3Marcustars\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [Hydro Reanimodel - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lHydro Reanimodel\n§f© §3BlaziumHydro\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [LackingMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lLackingMons\n§f© §3Beezy & IZetyXX\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [LegendsMyths - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lLegends & Myths\n§f© §3Dalerd303\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [MissingMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lMissingMons\n§f© §3RedRibbon\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [Monkeymons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lMonkeymns\n§f© §3Bonanca\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [MundialMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lMundialMons\n§f© §3Alexiocraft\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [MysticMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lMysticMons\n§f© §3iMystxc\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [OdysseyMons - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lOdysseyMons\n§f© §3Aki4hiro & BifeSalgado\"",
+      "force_compatible": true,
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [PigeonsPack - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lPigeonsPack\n§f© §3El-Pigeon\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [Pokemans - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lPokemans\n§f© §3Tontra & Pandalistics\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [KalesCollection - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lKalesCollection\n§f© §3Kale\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [GlitchDex - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lGlitchDex\n§f© §3Glitch Ratt\"",
+      "hidden": true
+    },
+    "file/z DO NOT ENABLE z [TheJewelPokemon - Credits Only].zip": {
+      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
+      "description": "\"§fCredits: §6§lThe Jewel Pokemon\n§f© §3NetImmerse\"",
+      "hidden": true
+    }
+  },
+  "default_overrides": {
+    "force_compatible": true
+  }
+}

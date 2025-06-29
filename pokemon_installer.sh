@@ -63,8 +63,9 @@ echo "eula=true" > eula.txt
 
 # --- 5. Download and Install Mods ---
 echo "INFO: Creating 'mods' directory and downloading mods..."
-# Move mods instead
+# Copy all file instead
 cp -r ../cobblemon/* .
+
 # mkdir mods
 echo "INFO: Downloading Cobblemon..."
 wget -P mods/ "${COBBLEMON_URL}"
