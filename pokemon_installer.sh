@@ -50,8 +50,9 @@ echo "INFO: Creating new 'server' directory..."
 mkdir server
 cd server
 
-echo "INFO: Downloading and installing Fabric Server..."
-wget "${FABRIC_URL}" -O "fabric-server.jar"
+# echo "INFO: Downloading and installing Fabric Server..."
+# wget "${FABRIC_URL}" -O "fabric-server.jar"
+cp ../cobblemon/fabric-server.jar .
 java -jar "fabric-server.jar" --installServer
 
 # --- 4. Accept EULA (Crucial Step for Linux) ---
