@@ -1,1 +1,1 @@
-cp -r ./cobblemon/datapacks ./server/world/datapacks
+cp -r ./cobblemon/datapacks ./server/world/
