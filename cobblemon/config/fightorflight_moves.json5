@@ -2,7 +2,7 @@
 	// The multiplier of the move power in calculating damage(The final damage can't be higher than the value in the config)
 	"move_power_multiplier": 1.0,
 	// The multiplier for the moves that don't make contacts or shoot projectiles when calculating damage(The final damage can't be higher than the value in the config.These moves are hard to avoid in an open area so the damage should be slightly lower than the others)
-	"indirect_attack_move_power_multiplier": 0.75,
+	"indirect_attack_move_power_multiplier": 0.800000011920929,
 	// If a pokemon doesn't have the correct moves to use,the base power will be used to calculate the damage.
 	"base_power": 60,
 	// The minimum radius of the AoE moves
@@ -10,7 +10,7 @@
 	// The maximum radius of the AoE moves
 	"max_AoE_radius": 3.0,
 	// The AoE damage will be lower to the target away from the center,this value sets the lowest damage multiplier of the AOE damage
-	"min_AoE_damage_multiplier": 0.5,
+	"min_AoE_damage_multiplier": 0.6000000238418579,
 	// The radius of the status moves(unused)
 	"status_move_radius": 8.0,
 	// Taunting moves are needed to taunt the aggressive wild pokemon
@@ -34,7 +34,6 @@
 		"iciclecrash",
 		"iciclespear",
 		"gunkshot",
-		"scaleshot",
 		"spikecannon",
 		"pinmissile",
 		"thousandarrows"
@@ -123,7 +122,8 @@
 		"seedflare",
 		"psyshock",
 		"psystrike",
-		"psychoboost"
+		"psychoboost",
+		"earthpower"
 	],
 	// Moves that hurts the entity(including the allies) around the pokemon
 	"self_centered_aoe_moves": [
@@ -206,7 +206,7 @@
 		"wimpout"
 	],
 	"recoil_moves_allHP": [
-		"selfdestruct",
+		"self-destruct",
 		"explosion",
 		"mindblown",
 		"mistyexplosion"
@@ -221,52 +221,6 @@
 	// Moves that burns the pokemon(unused)
 	"burn_status_move": [
 		"willowisp"
-	],
-	// Status moves that are used on the user.
-	"self_targeting_status_move": [
-		"bulkup",
-		"meditate",
-		"coil",
-		"calmmind",
-		"takeheart",
-		"charge",
-		"defensecurl",
-		"harden",
-		"withdraw",
-		"slackoff",
-		"synthesis",
-		"milkdrink",
-		"healorder",
-		"recover",
-		"morningsun",
-		"moonlight",
-		"softboiled",
-		"roost",
-		"geomancy",
-		"tidyup",
-		"dragondance",
-		"cosmicpower",
-		"defendorder",
-		"barrier",
-		"irondefense",
-		"shelter",
-		"acidarmor",
-		"amnesia",
-		"rockpolish",
-		"agility",
-		"autotomize",
-		"shiftgear",
-		"cottonguard",
-		"shellsmash",
-		"victorydance",
-		"quiverdance",
-		"honeclaws",
-		"sharpen",
-		"workup",
-		"growth",
-		"swordsdance",
-		"nastyplot",
-		"tailglow"
 	],
 	// Do Pokemon grief(only explosions currently)?
 	"pokemon_griefing": false,

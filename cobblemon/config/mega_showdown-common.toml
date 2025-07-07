@@ -1,10 +1,18 @@
 # Enable multiple mega's at one time
 # Allowed values: true, false - Default: false
-multipleMegas = true
+multipleMegas = false
 
 # Enable mega evolution only for battles
 # Allowed values: true, false - Default: false
 battleModeOnly = false
+
+# Allows you to have outside mega's but they devolve on battle and then you can have battle mode style theme
+# Allowed values: true, false - Default: true
+battleMode = true
+
+# Allows you to have both the mega btn and allows u to carry your mega's into the battle, battleMode should be false for this
+# Allowed values: true, false - Default: false
+scuffedMode = false
 
 # Makes it so that you need to have 200+ friendship in order to mega outside
 # Allowed values: true, false - Default: false
@@ -18,9 +26,9 @@ zMoves = true
 # Allowed values: true, false - Default: true
 teralization = true
 
-# Disables pokemons from dropping tera shards
+# Allows you to trade even if your pokemon is not in base form
 # Allowed values: true, false - Default: false
-disableTeraShardDrop = false
+tradeForm = false
 
 # Enables etermax eternus forme
 # Allowed values: true, false - Default: true
@@ -29,10 +37,6 @@ etermaxForme = true
 # Enables/Disables Dmaxing in game
 # Allowed values: true, false - Default: true
 dynamax = true
-
-# Enables/Disables Mega in game
-# Allowed values: true, false - Default: true
-mega = true
 
 # Allows you to dynamax anywhere you dont need to be near the dynamax area
 # Allowed values: true, false - Default: false
@@ -52,12 +56,4 @@ dynamaxScaleFactor = 4
 # but can't since mega showdown keeps overriding the files
 # Allowed values: true, false - Default: true
 showdownFilesLoading = true
-
-# Allows you to have multiple primals
-# Allowed values: true, false - Default: true
-multiplePrimals = true
-
-# Enable/Disable mega pokemons form reverting when battle starts
-# Allowed values: true, false - Default: true
-revertMegas = true
 

@@ -1,5 +1,5 @@
 {
-  "enableMythsAndLegendsIntegration": false,
+  "fileName": "server-config.json",
   "hideUnknownPokemon": false,
   "showPokemonTooltips": true,
   "hideUnknownPokemonTooltips": false,

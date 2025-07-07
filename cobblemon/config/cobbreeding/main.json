@@ -1,11 +1,11 @@
 {
-  "eggCheckTicks": 7200,
+  "eggCheckTicks": 12000,
   "eggCheckChance": 0.5,
   "eggHatchMultiplier": 1.0,
   "shinyMethod": [
-    "always"
+    "masuda"
   ],
-  "shinyMultiplier": 16.0,
+  "shinyMultiplier": 4.0,
   "hiddenAbilitiesEnabled": true,
   "forcedAbilitiesEnabled": false,
   "dittoAndDittoRandomEgg": false,
@@ -14,11 +14,5 @@
   "dittoAndDittoAllowUltraBeast": false,
   "dittoAndDittoAllowUndiscovered": false,
   "customColors": true,
-  "allowHoppersToPullFromPastureBlock": true,
-  "blacklistedAspects": [
-    "shiny",
-    "male",
-    "female",
-    "sheared"
-  ]
+  "allowHoppersToPullFromPastureBlock": true
 }

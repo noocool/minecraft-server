@@ -1,97 +1,29 @@
 {
   "defaultShop": [
     {
-      "Cobble Ball": [
-        {
-          "item": "cobblemon:poke_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:citrine_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:verdant_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:azure_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:roseate_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:slate_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:premier_ball",
-          "price": 2000
-        },
+      "Poké Balls": [
         {
           "item": "cobblemon:great_ball",
           "price": 600
         },
         {
-          "item": "cobblemon:ultra_ball",
-          "price": 800
-        },
-        {
-          "item": "cobblemon:safari_ball",
-          "price": 500
-        },
-        {
-          "item": "cobblemon:fast_ball",
-          "price": 1200
-        },
-        {
-          "item": "cobblemon:level_ball",
-          "price": 1200
-        },
-        {
-          "item": "cobblemon:lure_ball",
-          "price": 700
-        },
-        {
-          "item": "cobblemon:heavy_ball",
-          "price": 1200
-        },
-        {
-          "item": "cobblemon:love_ball",
-          "price": 1400
-        },
-        {
-          "item": "cobblemon:friend_ball",
-          "price": 700
-        },
-        {
-          "item": "cobblemon:moon_ball",
-          "price": 1200
-        },
-        {
-          "item": "cobblemon:sport_ball",
-          "price": 700
-        },
-        {
-          "item": "cobblemon:park_ball",
-          "price": 900
-        },
-        {
-          "item": "cobblemon:net_ball",
-          "price": 1000
-        },
-        {
-          "item": "cobblemon:dive_ball",
-          "price": 1000
+          "item": "cobblemon:heal_ball",
+          "price": 300
         },
         {
           "item": "cobblemon:nest_ball",
           "price": 1000
         },
         {
-          "item": "cobblemon:repeat_ball",
+          "item": "cobblemon:net_ball",
+          "price": 1000
+        },
+        {
+          "item": "cobblemon:dusk_ball",
+          "price": 1000
+        },
+        {
+          "item": "cobblemon:quick_ball",
           "price": 1000
         },
         {
@@ -99,140 +31,28 @@
           "price": 1000
         },
         {
+          "item": "cobblemon:repeat_ball",
+          "price": 1000
+        },
+        {
           "item": "cobblemon:luxury_ball",
-          "price": 3000
-        },
-        {
-          "item": "cobblemon:dusk_ball",
           "price": 1000
         },
         {
-          "item": "cobblemon:heal_ball",
-          "price": 300
+          "item": "cobblemon:poke_ball",
+          "price": 200
         },
         {
-          "item": "cobblemon:quick_ball",
-          "price": 1000
-        },
-        {
-          "item": "cobblemon:dream_ball",
+          "item": "cobblemon:ultra_ball",
           "price": 1200
-        },
-        {
-          "item": "cobblemon:beast_ball",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:master_ball",
-          "price": 99999
         }
       ]
     },
     {
-      "Ancient Ball": [
-        {
-          "item": "cobblemon:ancient_poke_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_citrine_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_verdant_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_azure_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_roseate_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_slate_ball",
-          "price": 200
-        },
-        {
-          "item": "cobblemon:ancient_ivory_ball",
-          "price": 400
-        },
-        {
-          "item": "cobblemon:ancient_great_ball",
-          "price": 600
-        },
-        {
-          "item": "cobblemon:ancient_ultra_ball",
-          "price": 800
-        },
-        {
-          "item": "cobblemon:ancient_feather_ball",
-          "price": 300
-        },
-        {
-          "item": "cobblemon:ancient_wing_ball",
-          "price": 700
-        },
-        {
-          "item": "cobblemon:ancient_jet_ball",
-          "price": 900
-        },
-        {
-          "item": "cobblemon:ancient_heavy_ball",
-          "price": 300
-        },
-        {
-          "item": "cobblemon:ancient_leaden_ball",
-          "price": 700
-        },
-        {
-          "item": "cobblemon:ancient_gigaton_ball",
-          "price": 900
-        },
-        {
-          "item": "cobblemon:ancient_origin_ball",
-          "price": 99999
-        }
-      ]
-    },
-    {
-      "Exp": [
-        {
-          "item": "cobblemon:exp_candy_xs",
-          "price": 300
-        },
-        {
-          "item": "cobblemon:exp_candy_s",
-          "price": 1600
-        },
-        {
-          "item": "cobblemon:exp_candy_m",
-          "price": 6000
-        },
-        {
-          "item": "cobblemon:exp_candy_l",
-          "price": 18000
-        },
-        {
-          "item": "cobblemon:exp_candy_xl",
-          "price": 50000
-        },
-        {
-          "item": "cobblemon:rare_candy",
-          "price": 25000
-        },
-        {
-          "item": "cobblemon:exp_share",
-          "price": 75000
-        }
-      ]
-    },
-    {
-      "Potions": [
+      "Healing": [
         {
           "item": "cobblemon:potion",
-          "price": 400
+          "price": 300
         },
         {
           "item": "cobblemon:super_potion",
@@ -247,172 +67,56 @@
           "price": 2500
         },
         {
-          "item": "cobblemon:full_heal",
-          "price": 500
-        },
-        {
           "item": "cobblemon:full_restore",
           "price": 3000
         },
         {
           "item": "cobblemon:revive",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:max_revive",
-          "price": 5000
+          "price": 1500
         }
       ]
     },
     {
-      "Poké Items": [
+      "Medicine": [
         {
-          "item": "cobblemon:galarica_nuts",
-          "price": 2500
+          "item": "cobblemon:antidote",
+          "price": 100
         },
         {
-          "item": "cobblemon:hp_up",
-          "price": 10000
+          "item": "cobblemon:awakening",
+          "price": 250
         },
         {
-          "item": "cobblemon:potion",
-          "price": 10000
+          "item": "cobblemon:burn_heal",
+          "price": 250
         },
         {
-          "item": "cobblemon:iron",
-          "price": 10000
+          "item": "cobblemon:ice_heal",
+          "price": 250
         },
         {
-          "item": "cobblemon:calcium",
-          "price": 10000
+          "item": "cobblemon:paralyze_heal",
+          "price": 200
         },
         {
-          "item": "cobblemon:zinc",
-          "price": 10000
-        },
-        {
-          "item": "cobblemon:carbos",
-          "price": 10000
-        },
-        {
-          "item": "cobblemon:pp_up",
-          "price": 10000
+          "item": "cobblemon:full_heal",
+          "price": 600
         }
       ]
     },
     {
-      "Mob Drops": [
+      "Repels": [
         {
-          "item": "minecraft:feather",
-          "price": 200
-        },
-        {
-          "item": "minecraft:rabbit_hide",
-          "price": 200
-        },
-        {
-          "item": "minecraft:rotten_flesh",
-          "price": 250
-        },
-        {
-          "item": "minecraft:spider_eye",
-          "price": 250
-        },
-        {
-          "item": "minecraft:ink_sac",
-          "price": 300
-        },
-        {
-          "item": "minecraft:bone",
-          "price": 300
-        },
-        {
-          "item": "minecraft:prismarine_crystals",
+          "item": "cobblemonrepel:repel",
           "price": 350
         },
         {
-          "item": "minecraft:glow_ink_sac",
-          "price": 400
-        },
-        {
-          "item": "minecraft:honeycomb",
-          "price": 450
-        },
-        {
-          "item": "minecraft:gunpowder",
+          "item": "cobblemonrepel:super_repel",
           "price": 500
         },
         {
-          "item": "minecraft:leather",
-          "price": 600
-        },
-        {
-          "item": "minecraft:honey_bottle",
-          "price": 600
-        },
-        {
-          "item": "minecraft:slime_ball",
+          "item": "cobblemonrepel:max_repel",
           "price": 700
-        },
-        {
-          "item": "minecraft:phantom_membrane",
-          "price": 700
-        },
-        {
-          "item": "minecraft:magma_cream",
-          "price": 750
-        },
-        {
-          "item": "minecraft:prismarine_shard",
-          "price": 800
-        },
-        {
-          "item": "minecraft:ender_pearl",
-          "price": 1000
-        },
-        {
-          "item": "minecraft:ghast_tear",
-          "price": 1500
-        },
-        {
-          "item": "minecraft:breeze_rod",
-          "price": 2000
-        },
-        {
-          "item": "minecraft:blaze_rod",
-          "price": 2500
-        },
-        {
-          "item": "minecraft:verdant_froglight",
-          "price": 3000
-        },
-        {
-          "item": "minecraft:ochre_froglight",
-          "price": 3000
-        },
-        {
-          "item": "minecraft:pearlescent_froglight",
-          "price": 3000
-        },
-        {
-          "item": "minecraft:trial_key",
-          "price": 5000
-        },
-        {
-          "item": "minecraft:trident",
-          "price": 10000
-        },
-        {
-          "item": "minecraft:shulker_shell",
-          "price": 15000
-        },
-        {
-          "item": "minecraft:totem_of_undying",
-          "price": 20000
-        },
-        {
-          "item": "minecraft:nether_star",
-          "price": 50000
         }
       ]
     }

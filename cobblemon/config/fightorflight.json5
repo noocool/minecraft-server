@@ -4,17 +4,17 @@
 	// Do especially aggressive Pokemon attack unprovoked?
 	"do_pokemon_attack_unprovoked": true,
 	// If the aggressive pokemon will only attack unprovoked in the dark area.(similar to the spider in Minecraft,do_pokemon_attack_unprovoked needs to be set to true
-	"light_dependent_unprovoked_attack": false,
+	"light_dependent_unprovoked_attack": true,
 	// If failed captures can be counted as provocation?
 	"failed_capture_counted_as_provocation": true,
 	// Do aggro Pokemon attack their targets even if they're in the middle of a battles?
 	"do_pokemon_attack_in_battle": false,
 	// The minimum level a Pokemon needs to be to fight back when provoked.
-	"minimum_attack_level": 12,
+	"minimum_attack_level": 5,
 	// The minimum level a Pokemon needs to be to attack unprovoked.
-	"minimum_attack_unprovoked_level": 25,
+	"minimum_attack_unprovoked_level": 10,
 	// The multiplier used to calculate the wild Pokemon's aggression,lower value can make the high level Pokemon less aggressive.
-	"aggression_level_multiplier": 0.02449999935925007,
+	"aggression_level_multiplier": 1.0,
 	// Are Dark types more aggressive at or below light level 7 and less aggressive at or above light level 12?
 	"dark_light_level_aggro": true,
 	// Are Ghost types more aggressive at or below light level 7 and less aggressive at or above light level 12?
@@ -22,7 +22,7 @@
 	// Pokemon below this map height (y) will always be aggressive.
 	"always_aggro_below": -128.0,
 	// Pokemon stops running away if the hp is not full.
-	"stop_running_after_hurt": false,
+	"stop_running_after_hurt": true,
 	// Wild pokemon will be slow down if the hp is not full.
 	"slow_down_after_hurt": false,
 	// Pokemon with these natures are slightly more aggressive.
@@ -63,37 +63,26 @@
 	],
 	// The aggression multiplier for natures above.
 	"more_peaceful_nature_multiplier": -2.0,
-	// If the behavior data will work?(Datapack required)
-	"enable_datapack_driven_behavior": true,
 	// Forms that will always be aggressive
 	"always_aggro_aspects": [
-		"alpha"
+		"alolan"
 	],
 	// Pokemon that will always be aggressive
 	"always_aggro": [
 		"mankey",
 		"primeape",
-		"voltorb",
-		"electrode",
-		"beedrill",
-		"gyarados"
+		"forretress shulker"
 	],
 	// Pokemon that will never be aggressive, priority over always aggresive species/forms
 	"never_aggro": [
 		"slowpoke",
-		"chansey",
-		"wooloo",
-		"vivillon",
-		"mareep",
-		"miltank",
-		"unown"
+		"pyukumuku"
 	],
 	// Pokemon that will be aggressive only when provoked(WIP)
 	"provoke_only_aggro": [],
 	// Pokemon that will always flee away from the player, priority over always aggresive species/forms
 	"always_flee": [
-		"wimpod",
-		"abra"
+		"wimpod"
 	],
 	// Abilities that will reduce wild pokemon's aggro
 	"aggro_reducing_abilities": [
@@ -121,12 +110,8 @@
 	"do_pokemon_defend_owner": true,
 	// Do player Pokemon defend their owners proactively? (follows the same rules as Iron Golems!!!)
 	"do_pokemon_defend_proactive": true,
-	// 0 zero means follow the same rule as Iron Golem. 1 means ignores neutral mobs that are not aiming at the player.
-	"pokemon_proactive_level": 1,
-	// The enemy detection radius for the pokemon to defend its owner.
-	"pokemon_defend_proactive_radius": 8.0,
 	// Do player Pokemon defend their owners from Creepers proactively?(Iron Golems won't attack Creeper proactively.
-	"do_pokemon_defend_creeper_proactive": true,
+	"do_pokemon_defend_creeper_proactive": false,
 	// Can player Pokemon target other players? (EXPERIMENTAL)
 	"do_player_pokemon_attack_other_players": false,
 	// Can player Pokemon target other player's Pokemon? (EXPERIMENTAL)
@@ -136,7 +121,7 @@
 	// Tick(1/20s by default) needed for the pokemon to cry again(it will only work when the multiple_cries is set to true)
 	"time_to_cry_again": 100,
 	// How much experience a pokemon can get by killing a pokemon without a battle? Set to 0 for no experience outside standard pokemon battles.
-	"experience_multiplier": 0.25,
+	"experience_multiplier": 0.5,
 	// Your pokemon can gain EV points by killing a pokemon without a battle?
 	"can_gain_ev": true,
 	// If the Pokemon can evolve by using the move out of a Pokemon Battle? For example Primeape can use Rage Fist 20x to evolve without a traditional Pokemon Battle.
@@ -154,17 +139,17 @@
 	// The minimum damage wild pokemon could do on hit
 	"minimum_attack_damage": 1.0,
 	// The maximum damage wild pokemon could do on hit
-	"maximum_attack_damage": 5.0,
+	"maximum_attack_damage": 50.0,
 	// Minimum damage multiplier player-owned pokemon would do
-	"minimum_attack_damage_player": 1.0,
+	"minimum_attack_damage_player": 1.2000000476837158,
 	// Damage multiplier player-owned pokemon would do
-	"attack_damage_player": 1.25,
+	"attack_damage_player": 1.2000000476837158,
 	// Maximum damage multiplier player-owned pokemon would do
-	"maximum_attack_damage_player": 1.25,
+	"maximum_attack_damage_player": 1.2000000476837158,
 	// Attack stat required to reach the maximum damage,the default value is calculated with 50 level, 130 stat, 252 EVs, IVs of 31, and a helpful nature.
 	"maximum_attack_stat": 200,
 	// The movement speed multiplier of a pokemon if the Speed stat of this Pokemon is 0.
-	"minimum_movement_speed": 1.5,
+	"minimum_movement_speed": 1.2999999523162842,
 	// The movement speed multiplier of a pokemon if the Speed stat of this Pokemon reaches the value in the config.
 	"maximum_movement_speed": 2.0,
 	// The speed stat required for a pokemon to reach the highest fleeing and pursuing speed.The default value(548) is the max speed stat of a lvl.100 Regieleki with a beneficial nature.
@@ -174,9 +159,9 @@
 	// Use the move effect after hitting the enemy(Inferno will always burn the target, Flamethrower has a 10% chance to burn the target.)
 	"activate_move_effect": true,
 	// The maximum damage reduction wild pokemon can get from its defense/special defense(uses the highest one)
-	"max_damage_reduction_multiplier": 0.42500001192092896,
+	"max_damage_reduction_multiplier": 0.4000000059604645,
 	// The multiplier for player-owned Pokemon for maximum damage reduction
-	"max_damage_reduction_multiplier_player": 1.25,
+	"max_damage_reduction_multiplier_player": 1.2000000476837158,
 	// The highest defense stat needed to get the highest damage reduction.
 	"defense_stat_limit": 161,
 	// When a player owned Pokemon hurts or is hurt by a wild pokemon, should a pokemon battle be started?
@@ -184,11 +169,11 @@
 	// When a player owned Pokemon hurts or is hurt by another player's pokemon, should a pokemon battle be started? (EXPERIMENTAL)
 	"force_player_battle_on_pokemon_hurt": false,
 	// If wild pokemon can use the ranged attack.
-	"wild_pokemon_ranged_attack": false,
+	"wild_pokemon_ranged_attack": true,
 	// The minimum time between pokemons ranged attacks. In seconds.
-	"minimum_ranged_attack_interval": 2.0,
+	"minimum_ranged_attack_interval": 1.0,
 	// The maximum time between pokemons ranged attacks. In seconds.
-	"maximum_ranged_attack_interval": 6.0,
+	"maximum_ranged_attack_interval": 3.0,
 	// The minimum time between pokemons melee attacks. In seconds.
 	"minimum_melee_attack_interval": 1.0,
 	// The maximum time between pokemons melee attacks. In seconds.
@@ -196,13 +181,13 @@
 	// Minimum damage wild pokemon would do with ranged attacks
 	"minimum_ranged_attack_damage": 1.0,
 	// Maximum damage wild pokemon would do with ranged attacks
-	"maximum_ranged_attack_damage": 5.0,
+	"maximum_ranged_attack_damage": 50.0,
 	// Minimum damage multiplier player-owned pokemon would do with ranged attacks
-	"minimum_ranged_attack_damage_player": 1.25,
+	"minimum_ranged_attack_damage_player": 1.2000000476837158,
 	// Damage multiplier player-owned pokemon would do with ranged attacks
-	"ranged_attack_damage_player": 1.25,
+	"ranged_attack_damage_player": 1.2000000476837158,
 	// Maximum damage multiplier player-owned pokemon would do with ranged attacks
-	"maximum_ranged_attack_damage_player": 1.5,
+	"maximum_ranged_attack_damage_player": 1.2000000476837158,
 	// Special attack stat required to reach the maximum damage,the default value is calculated with 50 level, 130 stat, 252 EVs, IVs of 31, and a helpful nature.
 	"maximum_special_attack_stat": 200,
 	// If the pokemon type effectiveness will be activated outside standard Pokemon battle
@@ -216,13 +201,13 @@
 	// Water type damage will be more effective on mobs like Blaze,Enderman,etc.
 	"water_type_super_effective_dmg_multiplier": 2.0,
 	// Fire type damage will be not very effective against fire immune entity.(set to 0 if you want a complete immune)
-	"fire_type_no_effect_dmg_multiplier": 0.15000000596046448,
+	"fire_type_no_effect_dmg_multiplier": 0.10000000149011612,
 	// Ice type damage will be not very effective against entity that can't be frozen.(set to 0 if you want a complete immune)
-	"ice_type_no_effect_dmg_multiplier": 0.15000000596046448,
+	"ice_type_no_effect_dmg_multiplier": 0.10000000149011612,
 	// Ice type damage will be more effective against entity that has a weaker resistant to the frost damage.
 	"ice_type_super_effective_dmg_multiplier": 2.0,
 	// Poison type damage will be not very effective against undead mobs.(set to 0 if you want a complete immune)
-	"poison_type_no_effect_dmg_multiplier": 0.15000000596046448,
+	"poison_type_no_effect_dmg_multiplier": 0.10000000149011612,
 	// If the original updateMaxHealth() will be replaced by my version. Pokemons outside of battle will use the hp stat instead of the base hp stat. The following configurations needs this one to work.
 	"shouldOverrideUpdateMaxHealth": true,
 	// If health sync will work on the wild pokemon, set to false will heal them on standard pokemon battle start if they were damaged before.
@@ -240,7 +225,5 @@
 	// HP stat needed to get maximum HP outside standard pokemon battle. The max hp of a Blissey is 714.
 	"max_HP_required_stat": 500,
 	// The Pokemon stays still after finishing the move command.
-	"stay_after_move_command": true,
-	// If the player need to hold a Poke Staff to use the command keybind
-	"should_check_poke_staff": true
+	"stay_after_move_command": true
 }

@@ -4,18 +4,11 @@ overridden_screens {
 }
 
 custom_gui {
-  identifier = welcomescreen_update
-  title = What's New?
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = false
-  pause_game = true
-}
-custom_gui {
-  identifier = welcomescreen_welcome
+  identifier = mainmenu
   title = 
   allow_esc = true
   transparent_world_background = true
-  transparent_world_background_overlay = false
+  transparent_world_background_overlay = true
   pause_game = true
 }
+

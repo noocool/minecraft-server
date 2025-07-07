@@ -14,6 +14,9 @@ exampleInt = 42
 # This is an example int list property
 exampleIntList = [ 12, 24 ]
 
+# This is an example multiline string property
+exampleMultilineString = "Hello World"
+
 # This is an example resource location set property
 exampleResourceLocationSet = [ "minecraft:dirt", "minecraft:diamond" ]
 

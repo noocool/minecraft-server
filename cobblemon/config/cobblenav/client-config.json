@@ -1,4 +1,5 @@
 {
+  "fileName": "client-config.json",
   "screenScale": 1.0,
   "sendErrorMessagesToChat": true,
   "obscureUnknownPokemon": true,
