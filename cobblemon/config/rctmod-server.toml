@@ -85,7 +85,7 @@
 	#━━━━━━━━━━
 	#Initial level cap of players. Pokemon will not gain any experience if at or above the level cap.
 	#Range: 1 ~ 100
-	initialLevelCap = 15
+	initialLevelCap = 100
 	#━━━━━━━━━━
 	#The required level cap for trainers is based of the strongest pokemon in their team.
 	#This value will be added to the derived player level cap (including the initial level cap).
